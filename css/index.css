@@ -1,2 +1,8 @@
 @import "./reset.css";
+@import "./menu.css";
+@import "./search.css";
+@import "./infolist.css";
+@import "./msg\,user.css";
+@import "./modal.css";
+@import "./cardlist.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=vietnamese");

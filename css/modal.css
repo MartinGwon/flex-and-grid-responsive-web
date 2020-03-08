@@ -1,0 +1,19 @@
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dialog {
+  background-color: white;
+  padding: 2em;
+  border-radius: 1em;
+  width: 50vw;
+  text-align: center;
+}

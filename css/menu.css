@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu-item {
+  background-color: gold;
+  flex: 1 1 25%;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-item:hover {
+  flex: 1 1 30%;
+  background-color: crimson;
+}
+
+.menu-link {
+  display: block;
+  padding: 1em;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+}

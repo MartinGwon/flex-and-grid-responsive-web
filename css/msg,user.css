@@ -1,0 +1,25 @@
+.user-item {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.user-photo {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5em;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: gold;
+  background-repeat: none;
+  background-position: center;
+  background-size: 100%;
+  flex-shrink: 0;
+}
+.frined-item {
+  align-items: center;
+}
+
+.user-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
