@@ -6,3 +6,126 @@
 @import "./modal.css";
 @import "./cardlist.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=vietnamese");
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 1rem;
+}
+
+.search-form {
+  margin-left: auto;
+}
+
+.contents {
+  padding: 1rem;
+}
+
+.side {
+  padding: 1rem;
+}
+
+.left-side {
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.info-list {
+  margin-bottom: 2rem;
+}
+
+.user-list {
+  margin-bottom: 2rem;
+}
+
+.right-side {
+  margin-top: 1rem;
+  color: white;
+  background-color: #666;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  top: 80px;
+}
+
+#modal-switch:checked ~ .modal {
+  display: flex;
+}
+
+label[for="modal-switch"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1.3rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+}
+
+label[for="modal-switch"]:before {
+  content: "🏴";
+  font-size: 1.5rem;
+}
+
+#modal-switch,
+label[for="modal-switch"] span {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+@media (min-width: 1000px) {
+  .page {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  /* .header {
+    width: 100%;
+  } */
+  .menu {
+    width: 100%;
+  }
+  .side {
+    width: 18%;
+  }
+  .header {
+    width: 100%;
+  }
+  .left-side {
+    order: 1;
+  }
+  .right-side {
+    order: 3;
+  }
+  .contents {
+    width: 55%;
+    order: 2;
+  }
+  .footer {
+    order: 4;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+  }
+}
+
+@media (mind-width: 1400px) {
+  .contents {
+    width: calc(100% - 600px);
+  }
+  .side {
+    width: 300px;
+  }
+}

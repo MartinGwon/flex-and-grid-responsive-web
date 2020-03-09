@@ -1,12 +1,13 @@
 .search-form {
   display: flex;
   height: 40px;
+  margin-right: 3rem;
 }
 
 .search-form input[type="search"] {
   margin-right: 10px;
   flex: 1 1 auto;
-  border: 0;
+  border: 1px solid gray;
   border-radius: 0.3em;
   font-size: 1rem;
 }
