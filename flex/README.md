@@ -6,4 +6,4 @@ please open in Chrome or FF. Not IE
 - [x] Flex
 - [ ] Grid
 
-![preview](images/preview.jpg)
+![preview](images/preview.jpg)![preview](images/preview2.jpg)
